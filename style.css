@@ -1,9 +1,44 @@
+.body{
+background-color: #fafafa;
+}
 .nav-item{
     
     padding: 5px 50px;
 }
 #titleArea{
     background: url("https://static.wixstatic.com/media/a858c7_0c8cd4cb13b747ecac8c4fe16ee515fd~mv2_d_2000_1335_s_2.jpg/v1/fill/w_1903,h_1124,al_b,q_90,usm_0.66_1.00_0.01,enc_auto/a858c7_0c8cd4cb13b747ecac8c4fe16ee515fd~mv2_d_2000_1335_s_2.jpg");
+    background-color: rgba(255, 255, 255, 0.5);
+    background-blend-mode:color;
     background-size:cover;
-    min-height: min-content;
+    background-attachment: fixed;
+    overflow: hidden;
+    height: 1000px;
+    
+}
+
+#topBanner{
+    background-color: #d1cac9;
+}
+
+hr{
+    background-color: black;
+    width: 10%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    border: none;
+}
+
+.card-text{
+    text-align: center;
+    font-weight: lighter;
+}
+.card-footer{
+    background-color: #d1cac9;
 }
