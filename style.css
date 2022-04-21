@@ -1,7 +1,7 @@
 .nav-item{
-    
     padding: 5px 50px;
 }
+
 #titleArea{
     background: url("https://static.wixstatic.com/media/a858c7_0c8cd4cb13b747ecac8c4fe16ee515fd~mv2_d_2000_1335_s_2.jpg/v1/fill/w_1903,h_1124,al_b,q_90,usm_0.66_1.00_0.01,enc_auto/a858c7_0c8cd4cb13b747ecac8c4fe16ee515fd~mv2_d_2000_1335_s_2.jpg");
     background-color: rgba(255, 255, 255, 0.5);
@@ -61,6 +61,7 @@ hr{
     outline: 3px solid black;
 }
 
+/*This doesn't work, currently unsure why*/
 .card-img-top:hover + .buyButton{
     outline: 3px solid black;
 }
@@ -102,7 +103,13 @@ hr{
     opacity: 100%;
     transition: opacity 0.3s;
 }
+#contact-section{
+    background-color: #b0aaa9;
+    height: 700px;
+}
 
-.image-boxes:hover{
-    opacity: 0;
+#contact-box{
+    padding: 50px 40px;
+    background-color: white;
+    width: 75%;
 }
