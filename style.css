@@ -23,27 +23,46 @@ hr{
     margin-left: auto;
     margin-right: auto;
 }
-
+.main-body{
+    background-color: black;
+}
 .card-group{
     position: relative;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    justify-content: center;
+    margin: 20px 10px;
+    margin-bottom: 250px;
 }
 
 .card-img-top{
-    padding: 100px 0px;
+    padding: 80px 0px;
 }
 
 .imgPopup{
-    width: 90.5%;
+    width: 100%;
     height: 100px;
     position: absolute;
-    top: 60%;
+    top: 100%;
+    left: 0%;
     transition: top 1s;
 
 }
 .card-img-top:hover + .imgPopup{
-    top: 50%;
+    top: 80%;
+}
+
+.buyButton{
+    padding: 3% 15%;
+    background-color: transparent;
+    border: none;
+    outline: 1px solid black;
+}
+
+.buyButton:hover{
+    outline: 3px solid black;
+}
+
+.card-img-top:hover + .buyButton{
+    outline: 3px solid black;
 }
 .card{
     text-align: center;
@@ -57,8 +76,12 @@ hr{
     font-weight: lighter;
 }
 .card-footer{
+    position: absolute;
     background-color: #d1cac9;
     padding-bottom: 30px;
+    width: 100%;
+    top: 100%;
+    left: 0%;
     z-index: 9;
 }
 
