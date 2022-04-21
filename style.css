@@ -28,7 +28,7 @@ hr{
 }
 .card-group{
     position: relative;
-    justify-content: center;
+    justify-content: space-between;
     margin: 20px 10px;
     margin-bottom: 250px;
 }
@@ -85,3 +85,24 @@ hr{
     z-index: 9;
 }
 
+.video-container{
+    height: 100%;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    overflow-x: hidden;
+}
+
+.video-container video{
+    min-width: 100%;
+    top:0%;
+    z-index: -1;
+}
+
+.image-boxes{
+    opacity: 100%;
+    transition: opacity 0.3s;
+}
+
+.image-boxes:hover{
+    opacity: 0;
+}
