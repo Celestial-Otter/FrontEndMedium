@@ -87,24 +87,35 @@ hr{
 }
 
 .video-container{
-    height: 100%;
+    margin-top: 300px;
+    margin-bottom: 100px;
+    height: 800px;
+    width: 100%;
     padding-bottom: 50px;
     padding-top: 50px;
     overflow-x: hidden;
     position: relative;
+
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .video-container video{
-    width: 100%;
+    object-fit: cover;
     height: 100%;
-    top:0;
-    z-index: -1;
-}
-
-video{
     position: absolute;
     top: 0;
     left: 0;
+    z-index: -1;
+}
+
+#about-box{
+    padding: 50px 40px;
+    background-color: white;
+    width: 75%;
+    height: 75%;
 }
 .image-boxes{
     opacity: 100%;
@@ -141,7 +152,7 @@ video{
 #contact-submit-button{
     border-radius: 0px;
     margin-top: 20px;
-    width: 35%;
+    width: 30%;
     float: right;
     height: 50px;
 }
