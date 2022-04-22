@@ -103,6 +103,10 @@ hr{
     opacity: 100%;
     transition: opacity 0.3s;
 }
+
+.image-boxes:hover{
+    opacity: 0%;
+}
 #contact-section{
     background-color: #b0aaa9;
     height: 700px;
